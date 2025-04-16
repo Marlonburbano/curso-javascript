@@ -1,9 +1,4 @@
-//coleccion de la palabra en ingles
-let animales = ['marlon', 'burbano'];
+//let nombre = 'Marlon Burbano'
+let nombre; 
 
-console.log(animales)
-console.log(animales[0]) // para acceder al primer elemento del array
-
-animales[2] = 'cabrera' // para añadir elementos al array segun el indice libre
-
-console.log(animales)
+console.log(nombre)

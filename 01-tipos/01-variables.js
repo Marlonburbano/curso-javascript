@@ -4,9 +4,10 @@ UpperCamelCase
 camelCase   
 snake_case
 
-java es case sensitive 
+java es case sensitive esto quiere decir que mayusculas y minusculas en una variable llamada asi misma es diferente 
 
-java utiliza camelCase
+
+java script utiliza camelCase
 */ 
 
 let nombre = "Marlon Burbano";
