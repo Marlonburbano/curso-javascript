@@ -1,11 +1,20 @@
-let numero = 42;
-let nombre = "hola mundo";
-let verdadero = true;
-let undef;
-let nula = null;
+// and, or y not
+
+// and &&
+
+let mayor = true;
+let suscrito = true;
+
+// console.log(true && true)
+// console.log(false && true)
+
+console.log('operador and ', mayor && suscrito)
 
 
-console.log(typeof nombre)
-console.log(typeof numero)
-console.log(typeof verdadero)
-console.log(typeof undef)
+//OR 
+
+console.log('operador or', mayor || suscrito)
+
+// Not
+
+console.log('operador not', !mayor)
