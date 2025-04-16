@@ -1,20 +1,9 @@
-// and, or y not
+// cuales son los numeros pares 
 
-// and &&
+let i = 0
 
-let mayor = true;
-let suscrito = true;
-
-// console.log(true && true)
-// console.log(false && true)
-
-console.log('operador and ', mayor && suscrito)
-
-
-//OR 
-
-console.log('operador or', mayor || suscrito)
-
-// Not
-
-console.log('operador not', !mayor)
+while (i < 10){
+    console.log(i)
+    i += 1 
+    
+}
