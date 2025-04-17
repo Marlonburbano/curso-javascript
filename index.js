@@ -1,11 +1,11 @@
-let accion = 'listat'
+function getByIdx(arr,idx){
 
-switch(accion){
-    case 'listar':
-        console.log('accion de listar')
-        break; // siempre va el break, sino se ejecuta el siguiente case
-    case 'guardar':
-        console.log('accion de guardar')
-    default: // cuando no cumple nungun case 
-        console.log('ninguna accion')
+    if (idx < 0 || arr.length <= idx){
+        return 'elemento no existe'
+    }
+    return arr[idx]
+    
 }
+
+let resultado = getByIdx([1,2],1)
+console.log(resultado)
