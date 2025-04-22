@@ -1,11 +1,19 @@
-function getByIdx(arr,idx){
+let array = [2, 5, 7, 15, -5, -100, 55];
 
-    if (idx < 0 || arr.length <= idx){
-        return 'elemento no existe'
-    }
-    return arr[idx]
+function getMenorMayor(arr) {
+    let menor = arr[0];
+    let mayor = arr[0];
     
+    for (let i = 0; i < arr.length; i++) {
+        if (menor > arr[i]) {
+            menor = arr[i];
+        }
+        if (mayor < arr[i]) {
+            mayor = arr[i];
+        }
+    }
+    return [mayor, menor];
 }
 
-let resultado = getByIdx([1,2],1)
-console.log(resultado)
+let numeros = getMenorMayor(array);
+console.log(numeros); // [55, -100]
